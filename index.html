@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!--Navigation Bar-->
+    <header class="header" id="head">
+        <nav class="navbar navbar-expand-lg shadow fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/1.jpg" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end show" id="navbarNav">
+                    <!--this is for the menu-->
+                    <ul class="navbar-nav my-menu">
+                        <li class="nav-item">
+                            <a class="nav-link scrollto active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="subheading">Hi!</span>
+                    <h1 class="mb-4 mt-3">I'm <span id="name">Dipannita Nath</span></h1>
+                    <p>
+                    <pre>An aspiring front-end developer who believes that "A design 
+when combined with aesthetics can translate abstract ideas 
+into an intuitive outcome." With creativity and enthusiasm 
+in my work, I strive to develop my skills everyday. 
+             Other than bringing "life to ideas" in the browser, I am 
+also into writing blogs and poems.</p></pre>
+                    <p><a href="DipannitaNath_Resume.pdf" download="MyResume" class="btn btn-primary py-2 px-3">Download Résumé</a></p>
+                </div>
+                <div class="col-md-6 text-center ">
+                    <div class="img">
+                        <img src="images/dips_pic_final.png" class="alter">
+                        <div class="social-links">
+                            <a target="_blank" href="https://www.linkedin.com/in/dipannita-nath-4a648b227/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/dips_chirps_/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://bloggup.com/profile/Dipannita"><i
+                                    class="fa-regular fa-b"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--My Skills section -->
+    <section class="skill-section" id="skills">
+        <div class="container">
+            <div class="justify-content-center pb-5">
+                <div class="heading-section text-center">
+                    <h1 class="big big-2">Technical</h1>
+                    <h2 class="mb-4">My Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>HTML5</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>CSS3</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="width:70%">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>C++</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="width:70%">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>C</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                aria-valuemax="100" style="width:65%">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Python</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar color-5" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:75%">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>C#</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100" style="width:50%">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skill-section" id="skills">
+        <div class="container">
+            <div class="justify-content-center pb-5">
+                <div class="heading-section text-center">
+                    <h1 class="big big-2">Interpersonal</h1>
+                    <h2 class="mb-4">My Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>Communication Skills</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>Team Management</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100" style="width:85%">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap">
+                        <h3>Analytical Skills</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="width:70%">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Creative Writing</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Presentations</h3>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar color-5" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:75%">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Experience Section-->
+    <section class="skill-section" id="experience">
+        <div class="container">
+            <div class="justify-content-center pb-5">
+                <div class="heading-section text-center">
+                    <h1 class="big big-2">Experience</h1>
+                    <h2 class="mb-4">Work</h2>
+                </div>
+            </div>
+            <div>
+                <div class="line"></div>
+                <div class="traffic_first"><img src="images/light.png" alt="" width="80%"></div>
+                <div class="first-stoppage"><i class="fa-solid fa-circle"></i></div>
+                <div class="first_internship">
+                    <p class="date">Jul 2022 - Aug 2022</p>
+                    <p class="company_first">The Techie Indians</p>
+                    <p class="role">Web Development Intern</p>
+                    <p class="style"><i>Front-end </i></p>
+                </div>
+
+                <div class="second-stoppage"><i class="fa-solid fa-circle"></i></div>
+                <div class="second_internship">
+                    <p class="date">Sep 2021- Present</p>
+                    <p class="company_second">Bloggup.Com</p>
+                    <p class="role">Freelance Blogger</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class="skill-section" id="projects">
+        <div class="projects-container">
+            <div class="justify-content-center pb-5">
+                <div class="heading-section text-center">
+                    <!-- <h1 class="big-2">Academic</h1> -->
+                    <h2 class="academic mb-4">Projects</h2>
+                </div>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>UDAAN - Why Walk when you can Fly <i class="fa-solid fa-plane-departure"></i></h1>
+                        <h2>A Flight Ticket Booking System</h2>
+                        <p><i>May 2022 - Present</i></p>
+                        <p>A ticket booking management system that has both admin and user profiles. It allows the admin
+                            to insert and update flights into a database and users to search and book
+                            flights. - HTML, CSS, JS, JSP, Oracle 10g XE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section -->
+    <section class="contact-section ftco-no-pb" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2 class="mb-4">Contact Me</h2>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main-card">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="images/Address.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="title">ADDRESS</div>
+                                    <div class="place">
+                                        <pre>Hojai, Assam, India
+                                    </pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="images/Contact.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="title">CONTACT NO</div>
+                                    <div class="place">+91 8638******</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="images/Email.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="title">EMAIL ID</div>
+                                    <div class="place">dipannitanath08@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Contact Form Section-->
+            <div class="email-container">
+                <div class="content">
+                    <div class="image-box">
+                        <img src="images/contact1.jpg" alt="">
+                    </div>
+                    <form>
+                        <div class="topic">Get in Touch</div>
+                        <div class="input-box">
+                            <input type="text" required>
+                            <label>Enter your name</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" id="email" required>
+                            <label>Enter your email id</label>
+                        </div>
+                        <div class="msg-box">
+                            <textarea></textarea>
+                            <label>Enter your message</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+    <!--Footer Section-->
+            <section class="footer">
+
+                <div class="credit">
+                  <i class="fa-regular fa-copyright"></i>2022, <span>By DN ♡</span>
+                </div>
+              </section>
+
+
+        <!--JS file-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+            integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/myscrpt.js"></script>
+</body>
+
+</html>
